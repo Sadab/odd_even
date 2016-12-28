@@ -117,7 +117,6 @@ public class EvenOdd extends JFrame{
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				if(randomNumber%2 == 0){
 					updateScore();
 					displayNewNumber();
