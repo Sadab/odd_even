@@ -167,7 +167,6 @@ public class EvenOdd extends JFrame{
 		TimerTask task = new TimerTask(){
 			@Override
 			public void run() {
-				// TODO Auto-generated method stub
 				if(bonusTime == 5){
 					seconds+=3;
 					bonusTime = 0;
